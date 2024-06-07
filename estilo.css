@@ -4,7 +4,7 @@
 		line-height: 1.5;
 		padding: 4em 1em;
 		font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-		background-color:rgb(140, 200, 145);
+		background-image: url("sky.jpg");
 	}
 	
 	.box {
@@ -32,6 +32,10 @@
 		width: 10%;
 		border-radius: 15px;
 	}
+	
+	.buttontext{
+		text-decoration: none;
+	}
 
 	.button1:hover {
 		background-color: #5bc79f;
@@ -51,7 +55,7 @@
 		background-color:rgb(165, 212, 177);
 		border-style: solid;
 		border-color: rgb(165, 212, 177);
-		width: 40%;
+		width: 700px;
 		margin: auto;
 		padding: 30px;
 		overflow: hidden;
@@ -125,3 +129,13 @@
 		border-radius: 15px;
 		background-size: 100% 100%;
 	}
+	.grid{
+		display: grid;
+		grid-template-rows: auto;
+	}
+	.grid-container{
+		display: grid;
+		row-gap: 50px;
+		display: inline-grid;
+	}
+	
